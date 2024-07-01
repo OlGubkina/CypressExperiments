@@ -11,11 +11,11 @@
 describe('Sgn up into hillel',()=> {
 
     beforeEach (()=>{
-        cy.visit('https://guest:welcome2qauto@qauto.forstudy.space/')
+        cy.visit('/') // BaseUrL из конфига
     })
 
     it ('verify user can sign in', ()=> {
-        
+        cy.viewport(2000, 3000) // разрешение экрана для конкретного теста
         cy.get('.hero-descriptor_btn').click()
         cy.get('#signupName').type('Nameee')
         cy.get('#signupLastName').type('LastNameee')
