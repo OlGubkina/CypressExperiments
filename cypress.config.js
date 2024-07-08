@@ -20,7 +20,7 @@ module.exports = defineConfig({
     baseUrl: 'https://guest:welcome2qauto@qauto.forstudy.space/',
     setupNodeEvents(on, config) { // ивенты cypress
       // https://docs.cypress.io/api/cypress-api/catalog-of-events#__docusaurus_skipToContent_fallback
-      on('test:after:run') // все логи по тесту
+      //on('after:run') // все логи по тесту
       // implement node event listeners here
     },
   },
