@@ -12,12 +12,18 @@ module.exports = defineConfig({
   videosFolder: 'videoFolder', // папка для видосов завалившихся кейсов
   video: false, // не снимать видосы упавших кейсов
   responseTimeout: 30000,
+  
   e2e: {
+    
     retries: {
-      runMode: 1, // ран без UI (через Git)
-      openMode: 1, // ран через UI
+      //runMode: 1, // ран без UI (через Git)
+      //openMode: 1, // ран через UI
+      
     },
+    
     baseUrl: 'https://guest:welcome2qauto@qauto.forstudy.space/',
+    
+    
     setupNodeEvents(on, config) { // ивенты cypress
       // https://docs.cypress.io/api/cypress-api/catalog-of-events#__docusaurus_skipToContent_fallback
       //on('after:run') // все логи по тесту
