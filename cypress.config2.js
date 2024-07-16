@@ -18,11 +18,11 @@ module.exports = defineConfig({
       runMode: 1, // ран без UI (через Git)
       openMode: 1, // ран через UI
     },
-
+    baseUrl: 'https://guest:welcome2qauto@qauto.forstudy.space/',
     env: {
-      envURL: 'https://guest:welcome2qauto@qauto.forstudy.space/',
-      login: 'olga.gubkina+1@gmail.com',
-      password: '2QP4hrK..GMDm2',
+      envURL: 'https://guest:welcome2qauto@qauto2.forstudy.space/',
+      login: 'olga.gubkina+2@gmail.com',
+      password: 'jz6MvhL3ADU4Md',
     },
     setupNodeEvents(on, config) { // ивенты cypress
       // https://docs.cypress.io/api/cypress-api/catalog-of-events#__docusaurus_skipToContent_fallback
