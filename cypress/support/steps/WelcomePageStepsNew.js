@@ -1,8 +1,4 @@
-import welcomePageNew from "../pages/WelcomePageNew"
 import { registrationData } from "../../fixtures/registrationData"
-import { CommonElement, InputField } from "../utils/elements"
-
-//import pm from "../pages/PageManager"
 
 const welcomePageStepsNew = {
     enterUserInfoWithoutRepeatedPassword() {
